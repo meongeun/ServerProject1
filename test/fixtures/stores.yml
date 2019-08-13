@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyString
+  location: 
+  runtime: MyString
+  menu: MyText
+  customuser: one
+  review: one
+  name: MyString
+  storeuser: one
+
+two:
+  phone: MyString
+  location: 
+  runtime: MyString
+  menu: MyText
+  customuser: two
+  review: two
+  name: MyString
+  storeuser: two
