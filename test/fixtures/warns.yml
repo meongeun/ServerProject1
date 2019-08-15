@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  ad: one
+  content: MyText
   customuser: one
-  contents: MyText
 
 two:
+  ad: two
+  content: MyText
   customuser: two
-  contents: MyText

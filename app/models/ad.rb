@@ -1,4 +1,4 @@
 class Ad < ApplicationRecord
-  belongs_to :event
-  belongs_to :warn
+  belongs_to :store
+  belongs_to :storeuser
 end

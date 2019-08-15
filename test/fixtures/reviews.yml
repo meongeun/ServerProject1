@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  store: MyString
-  event: MyString
-  numstar: 1
-  contents: MyText
+  store: one
+  rate: 1.5
+  content: MyText
+  customuser: one
 
 two:
-  store: MyString
-  event: MyString
-  numstar: 1
-  contents: MyText
+  store: two
+  rate: 1.5
+  content: MyText
+  customuser: two

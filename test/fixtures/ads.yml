@@ -1,31 +1,39 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  type: 
-  menu: MyText
-  cancel: false
-  np: 1
-  starttime: 2019-08-13 15:35:46
-  time: 2019-08-13 15:35:46
-  discount: 1
-  repeat: 1
-  startdate: 2019-08-13 15:35:46
-  enddate: 2019-08-13 15:35:46
+  kind: MyString
+  name: MyString
+  menu: MyString
   price: 1
-  event: one
-  warn: one
+  starttime: 2019-08-14 15:21:01
+  endtime: 2019-08-14 15:21:01
+  startday: 2019-08-14 15:21:01
+  endday: 2019-08-14 15:21:01
+  repeat: MyString
+  startdiscount: 1
+  timegap: 1
+  discountgap: 1
+  startnum: 1
+  plusone: 1
+  plustwo: 1
+  store: one
+  storeuser: one
 
 two:
-  type: 
-  menu: MyText
-  cancel: false
-  np: 1
-  starttime: 2019-08-13 15:35:46
-  time: 2019-08-13 15:35:46
-  discount: 1
-  repeat: 1
-  startdate: 2019-08-13 15:35:46
-  enddate: 2019-08-13 15:35:46
+  kind: MyString
+  name: MyString
+  menu: MyString
   price: 1
-  event: two
-  warn: two
+  starttime: 2019-08-14 15:21:01
+  endtime: 2019-08-14 15:21:01
+  startday: 2019-08-14 15:21:01
+  endday: 2019-08-14 15:21:01
+  repeat: MyString
+  startdiscount: 1
+  timegap: 1
+  discountgap: 1
+  startnum: 1
+  plusone: 1
+  plustwo: 1
+  store: two
+  storeuser: two

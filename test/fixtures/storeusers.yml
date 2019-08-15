@@ -2,20 +2,20 @@
 
 one:
   id: MyString
-  pw: 
-  phone: MyString
-  store: one
+  pw: MyString
+  target: MyString
   age: 1
   gender: false
-  target: MyString
+  image: MyString
+  store: one
   ad: one
 
 two:
   id: MyString
-  pw: 
-  phone: MyString
-  store: two
+  pw: MyString
+  target: MyString
   age: 1
   gender: false
-  target: MyString
+  image: MyString
+  store: two
   ad: two

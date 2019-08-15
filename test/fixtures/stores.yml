@@ -1,21 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  phone: MyString
-  location: 
-  runtime: MyString
-  menu: MyText
-  customuser: one
-  review: one
-  name: MyString
   storeuser: one
+  star: 1
+  name: MyString
+  location: MyString
+  time: MyString
+  menu: MyString
 
 two:
-  phone: MyString
-  location: 
-  runtime: MyString
-  menu: MyText
-  customuser: two
-  review: two
-  name: MyString
   storeuser: two
+  star: 1
+  name: MyString
+  location: MyString
+  time: MyString
+  menu: MyString
