@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(version: 2019_08_14_152535) do
     t.integer "store_id"
     t.float "rate"
     t.text "content"
-    t.integer "customuser_id"
+    t.integer "customeruser_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["customuser_id"], name: "index_reviews_on_customuser_id"

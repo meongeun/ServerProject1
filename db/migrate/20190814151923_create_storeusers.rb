@@ -11,5 +11,6 @@ class CreateStoreusers < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    add_index :storeusers, [:email], unique: true
   end
 end

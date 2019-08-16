@@ -9,12 +9,12 @@ class CreateCustomerusers < ActiveRecord::Migration[5.2]
       t.integer :age
       t.boolean :gender
       t.string :image
-      t.boolean :alarm
-      t.string :unique
+      t.string :uninum
       t.references :ad, foreign_key: true
       t.references :store, foreign_key: true
 
       t.timestamps
     end
+    add_index :customusers, [:email], unique: true
   end
 end
